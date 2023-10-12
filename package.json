@@ -1,0 +1,20 @@
+{
+  "name": "ai_tg_bot_proto",
+  "version": "1.0.0",
+  "description": "Protobuf fir ai_tg_bot",
+  "scripts": {
+    "build": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json"
+  },
+  "main": "lib/index.js",
+  "type": "module",
+  "repository": "git@github.com:kopetann/ai_tg_bot_proto.git",
+  "author": "Nikita Komov",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@nestjs/microservices": "^10.2.7"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
