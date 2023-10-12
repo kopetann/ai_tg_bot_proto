@@ -1,7 +1,29 @@
-import * as SubscriptionClient from "./proto/build/subscription_service.pb.js";
-import * as User from "./proto/build/user.pb.js";
+import {
+    AddPaidRequest,
+    AddSubscriptionRequest,
+    AddSubscriptionResponse,
+    ExtIdRequest,
+    HasActiveSubscriptionResponse,
+    User,
+    UserRequest,
+    UserRole
+} from "./proto/build/user.pb.js";
+import {
+    SubscriptionServiceClient,
+    SubscriptionServiceController,
+    SubscriptionServiceControllerMethods
+} from "./proto/build/subscription_service.pb.js"
 
 export {
-    SubscriptionClient,
-    User
+    User,
+    UserRole,
+    HasActiveSubscriptionResponse,
+    AddSubscriptionResponse,
+    AddSubscriptionRequest,
+    AddPaidRequest,
+    UserRequest,
+    ExtIdRequest,
+    SubscriptionServiceClient,
+    SubscriptionServiceController,
+    SubscriptionServiceControllerMethods
 }
