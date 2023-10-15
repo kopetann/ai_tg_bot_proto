@@ -5,7 +5,7 @@
   "scripts": {
     "build": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json"
   },
-  "main": "lib/index.js",
+  "main": "lib/cjs/index.js",
   "type": "commonjs",
   "repository": "git@github.com:kopetann/ai_tg_bot_proto.git",
   "author": "Nikita Komov",
